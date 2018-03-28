@@ -1,0 +1,32 @@
+Computer=TROIA3N
+
+Block ptS4151 016.fbi
+Loaded 7361237 points from active block.
+Loaded 348611 points from neighbouring blocks
+FnScanDeduceLines() returned 7 709 848
+FnScanClassifyClass(999,0,0) returned 7 709 848
+FnScanCutOverlap("Any",1,12,0,10.00,0,0,1,25,0,0.100,0.0000,5.000,3,0,0.500,"6,22","") returned 0
+FnScanClassifyAbsElev(9999,7,-9999.00,-5.00,0) returned 0
+FnScanClassifyLow(0,7,1,0.50,5.00,0) returned 12
+FnScanClassifyLow(0,7,20,0.50,5.00,0) returned 6
+FnScanClassifyIsolated("0",7,15,"0",20.00,0) returned 14
+FnScanClassifyEcho(0,8,1,0) returned 863 777
+FnScanClassifyEcho(0,8,2,0) returned 107 800
+FnScanClassifyGround("0",2,"2",1,30.0,85.00,7.00,3.00,0,5.0,0,2.0,0) returned 3 997 182
+FnScanClassifyHgtGrd(2,50.0,0,2,0.00,0.05,0) returned 709 806
+FnScanClassifyClass(8,0,0) returned 971 577
+FnScanClassifyModelKey("2",8,10.00,0.30,0.30,0) returned 15 086
+FnScanClassifyHgtGrd(8,50.0,0,3,0.000,0.300,0) returned 546 354
+FnScanClassifyHgtGrd(8,100.0,0,4,0.000,1.800,0) returned 497 607
+FnScanClassifyHgtGrd(8,150.0,0,5,0.000,999.000,0) returned 1 882 728
+FnScanClassifyHgtLst("8",150.0,7,5,15.000,999.000,0) returned 14
+FnScanThinGrid2d("5",14,2,0.550,0) returned 1 735 646
+FnScanClassifyBuilding(8,5,6,4,20.0,0.14,-1,0) returned 14 055
+FnScanClassifyClass(14,5,0) returned 1 735 646
+FnScanClassifyCloseby("5","0-65535","0-255",6,3,1.500,0,0,-1,"6",0,"0-65535",0,"0-255",0) returned 17 149
+FnScanClassifyCtrline("Any",7,0,0,0.00,8.00,-1,-8.000,8.000,0,0.00,2.00,1,1,0,0,0,0,0,0) returned 5
+FnScanClassifyHgtGrd(8,50.0,5,10,15.000,999.000,0) returned 717 697
+FnScanClassifyIsolated("4",7,1,"4",8.00,0) returned 7
+Saved 7361237 points
+
+Status=Success

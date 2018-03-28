@@ -1,0 +1,37 @@
+<CustomButton@Button>:
+	font_size: 32
+	color: 0, 0, 0, 1
+	background_normal: 'normal-color.png'
+	background_down: 'down-color.png'
+	background_color: .88, .88, .88, 1
+	border: 30,30,30,30
+	size_hint: .3, .1
+
+<RoundedButton@Button>:
+	font_size: 32
+    background_color: 0,0,0,0  # the last zero is the critical on, make invisible
+    size_hint: .3, .1
+    canvas.before:
+        Color:
+            rgba: (.4,.4,.4,1) if self.state=='normal' else (0,.7,.7,1)  # visual feedback of press
+        RoundedRectangle:
+            pos: self.pos
+            size: self.size
+            radius: [10,]
+	
+<FloatLayout>:
+	RoundedButton:
+		text: "Top Left"
+		pos_hint: {"x": 0, "top": 1}
+	CustomButton:
+		text: "Bottom Right??"
+		pos_hint: {"right": 1, "y": 0}
+	CustomButton:
+		text: "Top Right"
+		pos_hint: {"right": 1, "top": 1}
+	CustomButton:
+		text: "Bottom Left"
+		pos_hint: {"left": 1, "bottom": 0}
+	CustomButton:
+		text: "Center"
+		pos_hint: {"center_x": .5, "center_y": .5}
